@@ -1,11 +1,17 @@
+/*General*/
 html {
   scroll-behavior: smooth;
 }
 body {
   height: 100%;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
 }
+.container {
+  padding-top: 3.5%;
+  padding-bottom: 1%;
+}
+
 /*major color*/
 .gradient {
   background: rgb(19, 57, 189);
@@ -20,6 +26,11 @@ body {
   margin-top: 2rem;
   font-size: 1.25rem;
   color: white;
+}
+
+.page-header h2 {
+  color: red;
+  font-style: italic;
 }
 
 /*language description*/
@@ -42,7 +53,7 @@ body {
   background-image: url(./Photos/check-circle.svg);
 }
 
-/*triple icon part*/
+/*Work feature part*/
 .icon {
   color: #fff;
   height: 5rem;
@@ -54,9 +65,9 @@ body {
   justify-content: center;
 }
 
-/*Carousel */
+/*Client Review */
 .about-title {
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 /*Portfolio Section */
@@ -90,11 +101,6 @@ button:hover,
   box-shadow: none !important;
 }
 
-.container {
-  padding-top: 6%;
-  padding-bottom: 6%;
-}
-
 /*footer*/
 
 #social::after {
@@ -112,9 +118,11 @@ button:hover,
 }
 
 .footer {
-  background: red;
+  background: #fbceb1;
   padding: 40px;
 }
 .fab {
   color: black;
 }
+
+/*button*/

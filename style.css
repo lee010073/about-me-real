@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+/*major color*/
+.gradient {
+  background: rgb(19, 57, 189);
+  background: linear-gradient(
+    312deg,
+    rgba(19, 57, 189, 1) 20%,
+    rgba(188, 148, 233, 1) 100%
+  );
+}
+/*header*/
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+/*middle-feature description*/
+.feature {
+  color: #fff;
+}
+
+.feature ul {
+  padding-left: 1rem;
+
+  list-style-type: none;
+  color: #fff;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  background-repeat: no-repeat;
+  background-image: url(./Photos/check-circle.svg);
+}
+
+/*triple icon part*/
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*gallery part*/
+.gallery {
+  background-color: whitesmoke;
+}
+.gallery img {
+  border-radius: 5%;
+}

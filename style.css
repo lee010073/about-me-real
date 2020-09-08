@@ -1,4 +1,6 @@
-html,
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100%;
   font-size: 1rem;
@@ -15,19 +17,18 @@ body {
 }
 /*header*/
 .page-header {
-  margin-top: 4rem;
+  margin-top: 2rem;
   font-size: 1.25rem;
   color: white;
 }
 
-/*middle-feature description*/
+/*language description*/
 .feature {
   color: #fff;
 }
 
 .feature ul {
   padding-left: 1rem;
-
   list-style-type: none;
   color: #fff;
 }
@@ -87,4 +88,33 @@ button:hover,
 .btn:active {
   outline: 0px !important;
   box-shadow: none !important;
+}
+
+.container {
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+/*footer*/
+
+#social::after {
+  display: block;
+  height: 3px;
+  background-color: black;
+  content: " ";
+  width: 100px;
+  margin: 30px auto;
+}
+
+.footer li {
+  display: inline;
+  padding-right: 40px;
+}
+
+.footer {
+  background: red;
+  padding: 40px;
+}
+.fab {
+  color: black;
 }

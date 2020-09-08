@@ -33,11 +33,15 @@ body {
   font-style: italic;
 }
 
-/*language description*/
+/*Client Review */
+.about-title {
+  padding-bottom: 3rem;
+}
+
+/*Language description*/
 .feature {
   color: #fff;
 }
-
 .feature ul {
   padding-left: 1rem;
   list-style-type: none;
@@ -53,7 +57,7 @@ body {
   background-image: url(./Photos/check-circle.svg);
 }
 
-/*Work feature part*/
+/*Feature part*/
 .icon {
   color: #fff;
   height: 5rem;
@@ -63,11 +67,6 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-
-/*Client Review */
-.about-title {
-  padding-bottom: 3rem;
 }
 
 /*Portfolio Section */
@@ -101,7 +100,7 @@ button:hover,
   box-shadow: none !important;
 }
 
-/*footer*/
+/*Footer*/
 
 #social::after {
   display: block;

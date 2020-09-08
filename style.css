@@ -53,16 +53,38 @@ body {
   justify-content: center;
 }
 
-/*gallery part*/
-.gallery {
-  background-color: whitesmoke;
-}
-.gallery img {
-  border-radius: 5%;
+/*Carousel */
+.about-title {
+  padding-bottom: 4rem;
 }
 
-.site-main .about-area .owl-carousel .own-dots {
-  width: 12px;
-  height: 12px;
-  background: red;
+/*Portfolio Section */
+.project-area {
+  background: whitesmoke;
+}
+
+.project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 1rem;
+  text-transform: uppercase;
+}
+
+.project-area .button-group button + button {
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px;
+}
+
+/* dont want the blue box for the button */
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn:active {
+  outline: 0px !important;
+  box-shadow: none !important;
 }

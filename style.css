@@ -60,3 +60,9 @@ body {
 .gallery img {
   border-radius: 5%;
 }
+
+.site-main .about-area .owl-carousel .own-dots {
+  width: 12px;
+  height: 12px;
+  background: red;
+}

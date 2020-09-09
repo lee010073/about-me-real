@@ -98,6 +98,12 @@ body {
   font: normal 700 25px/12px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
 /* dont want the blue box for the button */
 button:focus,
 button:active,
